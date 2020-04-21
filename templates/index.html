@@ -262,23 +262,116 @@
         <!-- <input name="month" class="form-control" id="textbox" placeholder="Enter Month" type="text">
         <button id="start-btn" class="btn"><i class="fa fa-microphone"></i></button> -->
         <label for="validationDefault01"></label>
-      <input type="text" name="month" class="form-control" id="textbox" placeholder="Enter Month" required>
-      <button id="start-btn" class="btn"><i class="fa fa-microphone"></i></button>
+      <!-- <input type="text" name="month" class="form-control" id="textbox" placeholder="Enter Month" required> -->
+      <select class="form-control" id="textbox" name="month" style="max-height: 50px;overflow-y:scroll;">
+      <option selected=""> Select Month</option>
+      <div style="max-height: 10px;overflow-y: auto;">
+      <option >Jan</option>
+      <option>Feb</option>
+      <option>Mar</option>
+      <option>Apr</option>
+      <option>May</option>
+      <option>Jun</option>
+      <option>Jul</option>
+      <option>Aug</option>
+      <option>Sep</option>
+      <option>Oct</option>
+      <option>Nov</option>
+      <option>Dec</option>
+      </div>    
+    </select>
+      <!-- <button id="start-btn" class="btn"><i class="fa fa-microphone"></i></button> -->
     </div>
     <div class="form-group input-group">
         <label for="validationDefault02"></label>
-      <input type="text" name="ph" class="form-control" id="textbox2" placeholder="Enter pH Scale" required>
-      <button id="start-btn1" class="btn"><i class="fa fa-microphone"></i></button>
+      <!-- <input type="text" name="ph" class="form-control"  placeholder="Enter pH Scale" required> -->
+      <select class="form-control" name="ph" id="textbox2">
+      <option selected="" >Select pH Scale</option>
+      <option>4</option>
+      <option>4.5</option>
+      <option>5</option>
+      <option>5.5</option>
+      <option>6</option>
+      <option>6.5</option>
+      <option>7</option>
+      <option>7.5</option>
+      <option>8</option>
+      <option>8.5</option>
+      <option>9</option>
+    </select>
+      <!-- <button id="start-btn1" class="btn"><i class="fa fa-microphone"></i></button> -->
     </div>
     <div class="form-group input-group">
         <label for="validationDefault03"></label>
-      <input type="text" name="region" class="form-control" id="textbox3" placeholder="Enter Region" required>
-      <button id="start-btn2" class="btn"><i class="fa fa-microphone"></i></button>
+     <!--  <input type="text" name="region" class="form-control" id="textbox3" placeholder="Enter Region" required> -->
+     <select class="form-control" name="region" id="textbox3">
+      <option selected=""  id="textbox3">Select Region</option>
+      <option>andaman nicobar</option>
+      <option>andhra pradesh</option>
+      <option>arunachal pradesh</option>
+      <option>assam</option>
+      <option>bihar</option>
+      <option>chandigarh</option>
+      <option>chhattisgarh</option>
+      <option>coorg</option>
+      <option>dadra nagar haveli</option>
+      <option>daman diu</option>
+      <option>delhi</option>
+      <option>goa</option>
+      <option>gujrat</option>
+      <option>haryana</option>
+      <option>hilly areas</option>
+      <option>himachal pradesh</option>
+      <option>hyderabad</option>
+      <option>jammu kashmir</option>
+      <option>jharkhand</option>
+      <option>karnataka</option>
+      <option>kerala</option>
+      <option>kodaikanal</option>
+      <option>ladakh</option>
+      <option>lakshadweep</option>
+      <option>madhya pradesh</option>
+      <option>maharashtra</option>
+      <option>malabar</option>
+      <option>manipur</option>
+      <option>meghalaya</option>
+      <option>mizoram</option>
+      <option>nagaland</option>
+      <option>nilgiris</option>
+      <option>odisha</option>
+      <option>puducherry</option>
+      <option>punjab</option>
+      <option>rajasthan</option>
+      <option>shevaroys</option>
+      <option>sikkim</option>
+      <option>tamil nadu</option>
+      <option>telangana</option>
+      <option>tripura</option>
+      <option>uttar pradesh</option>
+      <option>uttarakhand</option>
+      <option>west bengal</option>
+      <option>wynad</option>
+    </select>
+
+ <!--      <button id="start-btn2" class="btn"><i class="fa fa-microphone"></i></button> -->
     </div>
     <div class="form-group input-group">
       <label for="validationDefault04"></label>
-      <input type="text" name="soil" class="form-control" id="textbox4" placeholder="Enter Soil Type" required>
-      <button id="start-btn3" class="btn"><i class="fa fa-microphone"></i></button>
+      <!-- <input type="text" name="soil" class="form-control" id="textbox4" placeholder="Enter Soil Type" required> -->
+      <select class="form-control" name="soil" id="textbox4">
+      <option selected="" >Select Soil Type</option>
+      <option>loamy soil</option>
+      <option>clay soil</option>
+      <option>alluvial soil</option>
+      <option>red soil</option>
+      <option>black cotton soil</option>
+      <option>deltaic soil</option>
+      <option>well-drained deep soil</option>
+      <option>laterite soil</option>
+      <option>sandy soil</option>
+      <option>slightly acidic soil</option>
+    </select>
+<!--       <button id="start-btn3" class="btn"><i class="fa fa-microphone"></i></button> -->
     </div>
      <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block" > Predict Now  </button>
@@ -322,7 +415,7 @@
         </div>
 <br>
 
-<!-->div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6">
@@ -331,7 +424,7 @@
     </div>
     <div class="col-lg-3"></div>
   </div>
-</div>-->
+</div> -->
 
 <script type="text/javascript">
     var x='Rice is a tropical crop that can be grown almost throughout the year. It depends on atmospheric moisture and rainfall for irrigation. India is the 2nd largest producer of rice in the world. India has largest area in world under rice cultivation. Productivity is low compared to wheat because Green Revolution primarily boosted wheat production in India.';
@@ -513,6 +606,8 @@ Textbox3.on('input', function() {
 
 
 </script>
+<br>
+
   <section id="footer" style="background-color: #77b122">
     <div class="container">
       <div class="row">
