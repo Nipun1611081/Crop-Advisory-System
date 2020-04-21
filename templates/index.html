@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><div class="B">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><div class="B">
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<title>CROP ADVISOR</title>
+</head>
+<style type="text/css">
+  body {
+  padding-top: 65px;
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+  border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+  margin-bottom: -1px;
+}
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light  fixed-top" style="background-color:white">
+    <a class="navbar-brand" style="color: #0F9400; font-size: 25px" href="index.html"><!-- <img src="logo.png" style="height: 50px;width: 150px"> --><b><i>CROP Advisor</i></b></a>
+    <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+    <span class="navbar-toggler-icon" style="background-color:#0F9400 "></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="nav" >
+    <ul class="navbar-nav">
+      <li class="nav-item" >
+        <a class="nav-link   px-3" href="index.html" style="color: #77b122;"><b>HOME</b></a>
+      </li>
+      <!-- <li class="nav-item dropdown" data-toggle="dropdown">
+        <a class="nav-link  px-3 dropdown-toggle" href="#" style="color: #77b122;"><b>CATEGORIES</b></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Fast Food</a>
+          <a class="dropdown-item" href="#">Lunch</a>
+          <a class="dropdown-item" href="#">Dessert</a>
+        </div>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link   px-3" href="#about" style="color:#77b122;"><b>ABOUT US</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   px-3" href="#pre" style="color:#77b122;"><b>CROPS</b></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link  px-3" href="#pre" style="color:#77b122;"><b>CONTACT</b></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link  px-3" href="#pre" style="color:#77b122;"><b>PREDICT</b></a>
+      </li>
+    </ul>
+    <form class="form-inline ml-3">
+      <div class="input-group">
+        <input type="text" class="form-control " placeholder="Search" >
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+    </form>
+    </div>
+  </nav>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="height: 230px">
+                <img src="{{url_for('static', filename='m4.jpg')}}" >
+                <div class="carousel-caption">
+                  <!-- <h3>Los Angeles</h3> -->
+                <!--   <p>Advising for Crop Cultivation using Machine Learning</p> -->
+                </div>   
+              </div>
+              <div class="carousel-item" style="height: 230px">
+                <img src="{{url_for('static', filename='m2.jpg')}}" >
+                <div class="carousel-caption" >
+                 
+                  
+                </div>   
+              </div>
+              <div class="carousel-item" style="height: 230px">
+                <img src="{{url_for('static', filename='m1.jpg')}}"  >
+                <div class="carousel-caption">
+    
+                </div>   
+              </div>
+            <div class="carousel-item" style="height: 230px">
+                <img src="{{url_for('static', filename='m3.jpg')}}" >
+              <div class="carousel-caption">
+              </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+   <br id="about">
+    <div class="container" >
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="about-us-content mb-100">
+            <div class="section-heading">
+              <!-- <p style="color: #77b122;" id="about"><b>About us</b></p> -->
+              <h3 ><span style="color:#77b122 "><b>About Us</b></span></h3>
+            </div>
+            <p style="text-align: justify;font-size: 18px;color: #137300;  font-family: 'Merriweather', serif;">In order to mitigate the agrarian crisis in the current status quo, there is a need for better recommendation systems to alleviate the crisis by helping the farmers to take an informed decision before starting the cultivation of crops. The <span><i><b>“Crop Advisor for Crop Cultivation using Machine Learning and Neural Network approach”</b></i></span> would be an application that will suggest suitable crops to be cultivated based on various factors such as rainfall, temperature, soil type etc.</p>
+<!--             <a href="#" class="btn famie-btn mt-30">Read More</a>
+ -->          </div>
+        </div>
+
+        <!-- Famie Video Play -->
+        <div class="col-lg-4">
+            <img src="{{url_for('static', filename='pp.jpg')}}" style="height: 100%;width: 100%">
+        </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 ><span style="color:#77b122 "><b>What We Do??</b></span></h3>
+          </div>
+
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row"> 
+          <div class="col-lg-4" style="text-align: center;align-content: center;font-family: 'Merriweather', serif;">
+            <h4 style="color: #137300;">PREDICTION</h4>
+            <img style="height: 50%;width: 50%"src="{{url_for('static', filename='predict.png')}}"alt="" >
+<br>
+              
+              <p style="color: #137300;font-size: 18px">On basis of region, we predict factors for better agrian practices</p>
+          </div>
+          <div class="col-lg-4"  style="text-align: center;align-content: center;font-family: 'Merriweather', serif;">
+            <h4 style="color: #137300;">RECOMMENDATION</h4>
+            <img style="height: 50%;width: 50%"src="{{url_for('static', filename='reco.png')}}" alt="">
+<br>
+              
+              <p style="color: #137300;font-size: 18px">Based on Prediction we suggest the best crops that should be planted</p>
+          </div>
+          <div class="col-lg-4"  style="text-align: center;align-content: center;font-family: 'Merriweather', serif;">
+            <h4 style="color: #137300;">INFORMATION</h4>
+            <img style=" height: 50%;width: 50%" src="{{url_for('static', filename='ui.png')}}" alt="">
+<br>
+               
+              <p style="color:#137300;font-size: 18px">Information on various crops that could be cultivated commercially</p>
+          </div>
+        </div>
+      </div>
+
+
+  <div class="container" id="pre">
+        <div class="row">
+          
+          <div class="col-lg-6">
+            <h3 ><span style="color:#77b122 "><b>Predict Now</b></span></h3>
+          <form action="{{ url_for('predict')}}"method="post">
+  <div class="form-group input-group" >
+    <div class="form-group input-group">
+        <!-- <input name="month" class="form-control" id="textbox" placeholder="Enter Month" type="text">
+        <button id="start-btn" class="btn"><i class="fa fa-microphone"></i></button> -->
+        <label for="validationDefault01"></label>
+      <input type="text" name="month" class="form-control" id="textbox" placeholder="Enter Month" required>
+      <button id="start-btn" class="btn"><i class="fa fa-microphone"></i></button>
+    </div>
+    <div class="form-group input-group">
+        <label for="validationDefault02"></label>
+      <input type="text" name="ph" class="form-control" id="textbox2" placeholder="Enter pH Scale" required>
+      <button id="start-btn1" class="btn"><i class="fa fa-microphone"></i></button>
+    </div>
+    <div class="form-group input-group">
+        <label for="validationDefault03"></label>
+      <input type="text" name="region" class="form-control" id="textbox3" placeholder="Enter Region" required>
+      <button id="start-btn2" class="btn"><i class="fa fa-microphone"></i></button>
+    </div>
+    <div class="form-group input-group">
+      <label for="validationDefault04"></label>
+      <input type="text" name="soil" class="form-control" id="textbox4" placeholder="Enter Soil Type" required>
+      <button id="start-btn3" class="btn"><i class="fa fa-microphone"></i></button>
+    </div>
+     <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block" > Predict Now  </button>
+    </div> <!-- form-group// -->
+  </div>
+                                      
+                                                                     
+</form>
+    <br>
+    <br>
+    <div style="border: 1px solid black">{{ prediction_text }}</div>   
+
+
+
+          </div>
+          <div class="col-lg-6">
+            <h3 ><span style="color:#77b122 "><b>Search Crop</b></span></h3>
+          <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item dropdown" >
+            <a class="nav-link" href="#" data-toggle="dropdown" role="tab" aria-controls="dropdown" aria-selected="false" style="color: green"><b>Click Here To Select the Crop</b></a>
+                <ul class="dropdown-menu" id="choose" role="menu">
+                        <li class="nav-item nav-link" onclick="change('Rice is a tropical crop that can be grown almost throughout the year. It depends on atmospheric moisture and rainfall for irrigation. India is the 2nd largest producer of rice in the world. India has largest area in world under rice cultivation. Productivity is low compared to wheat because Green Revolution primarily boosted wheat production in India.')">Rice</li>
+                        <li class="nav-item nav-link" onclick="change('It is the 2nd most important food crop in India. It is a Rabi crop. India stands second in production of wheat worldwide. It is more flexible in terms of climactic and other conditions of growth.')">wheat</li>
+                        <li class="nav-item nav-link" onclick="change('Cotton is a tropical and subtropical Kharif crop. It is a fibre crop and is known as ‘White gold’. India ranks 3rd in the production of cotton worldwide. It is a dry crop but roots need timely supply of water at maturity')">Cotton</li>
+                        <li class="nav-item nav-link" onclick="change('Jute is a tropical plant that requires hot and humid climate. It is one of the most important natural fibres in terms of cultivation and usage. Almost 85% of the world\'s jute is cultivated in the Ganges Delta.')">Jute</li>
+                        <li class="nav-item nav-link" onclick="change('Sugarcane is an important cash crop. India stands at 2nd position among all countries in the world in its production. Sugarcane crop requires long rainy season of at least 7-8 months. Traditional Sugarcane Production was in North India but it has also shifted to South India.')">Sugarcane</li>
+                        <li class="nav-item nav-link" onclick="change('Tea is an evergreen plant that mainly grows in tropical and subtropical climates. Tea is a labour intensive crop and 50% of the labourers are women. It grows faster under light shade. Commercial cultivation of tea started in India from British era. India is the 2nd largest producer and the largest consumer of tea in the world. Tea plants require high rainfall but its roots cannot tolerate water logging. Hence, it requires sloppy areas.')">Tea</li>
+                        <li class="nav-item nav-link" onclick="change('Coffees are grown in shade and commonly with two tiers of shade. Growing altitudes ofcoffee range between 1,000 to 1,500 m above sea level for Arabica (premier coffee), and 500 to 1,000 m for Robusta (lower quality). Both varieties are planted in well-drained soil conditions that favour rich organic matter.')">Coffee</li>
+                        <li class="nav-item nav-link" onclick="change('Corn is one of the msot versatile emerging cash crops having wuder adaptability under varied climatic conditions. It is called the queen of cereals globally. In India, corn is the third most important food cash crops after wheat & rice')">Corn</li>
+                        <li class="nav-item nav-link" onclick="change('Cucumbers have been grown in india for food and medicinal uses since ancient times, and they have long been part of the Mediterranean diet. The seeds of Cucumber are used for oil extraction which is excellent for body and brain. The Cucumber plants are large-sized, leaves are hairy and are traingular and flowers are yellow.')">Cucumber</li>
+
+                </ul>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane group fade show active" id="tab1" style="border: 1px solid black"></div>
+    </div>
+
+          </div>
+          </div>
+        </div>
+<br>
+
+<!-->div class="container">
+  <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+      <h3 ><span style="color:#77b122 ;align-items: center;align-content: center;"><b>TOP News</b></span></h3>
+      <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:500px;background-color:#transparent; border:1px solid #333333;"><div id="rsswidget" style="height:500px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1583317758995&amp;x=https%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F2647163.cms&amp;w=500&amp;h=500&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:500px; height:500px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+    </div>
+    <div class="col-lg-3"></div>
+  </div>
+</div>-->
+
+<script type="text/javascript">
+    var x='Rice is a tropical crop that can be grown almost throughout the year. It depends on atmospheric moisture and rainfall for irrigation. India is the 2nd largest producer of rice in the world. India has largest area in world under rice cultivation. Productivity is low compared to wheat because Green Revolution primarily boosted wheat production in India.';
+    document.getElementById('tab1').innerHTML=x;
+    function change(item_selected){
+        document.getElementById('tab1').innerHTML = item_selected;
+    }
+
+    var SpeechRecognition = window.webkitSpeechRecognition;
+  
+var recognition = new SpeechRecognition();
+var recognition1 = new SpeechRecognition();
+var recognition2 = new SpeechRecognition();
+var recognition3 = new SpeechRecognition();
+
+var Textbox = $('#textbox');
+var Textbox1 = $('#textbox2');
+var Textbox2 = $('#textbox3');
+var Textbox3 = $('#textbox4');
+var instructions = $('instructions');
+var instructions1 = $('instructions');
+var instructions2 = $('instructions');
+var instructions3 = $('instructions');
+
+var Content = '';
+var Content1 = '';
+var Content2 = '';
+var Content3 = '';
+
+//recognition.continuous = true;
+
+recognition.onresult = function(event) {
+
+  var current = event.resultIndex;
+
+  var transcript = event.results[current][0].transcript;
+ 
+    Content += transcript;
+    Textbox.val(Content);
+  
+};
+
+recognition1.onresult = function(event) {
+
+  var current = event.resultIndex;
+
+  var transcript = event.results[current][0].transcript;
+ 
+    Content1 += transcript;
+    Textbox1.val(Content1);
+  
+};
+
+recognition2.onresult = function(event) {
+
+  var current = event.resultIndex;
+
+  var transcript = event.results[current][0].transcript;
+ 
+    Content2 += transcript;
+    Textbox2.val(Content2);
+  
+};
+
+recognition3.onresult = function(event) {
+
+  var current = event.resultIndex;
+
+  var transcript = event.results[current][0].transcript;
+ 
+    Content3 += transcript;
+    Textbox3.val(Content3);
+  
+};
+
+recognition.onstart = function() { 
+  instructions.text('Voice recognition is ON.');
+}
+
+recognition.onspeechend = function() {
+  instructions.text('No activity.');
+}
+
+recognition.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    instructions.text('Try again.');  
+  }
+}
+
+$('#start-btn').on('click', function(e) {
+  if (Content.length) {
+    Content += ' ';
+  }
+  recognition.start();
+});
+
+Textbox.on('input', function() {
+  Content = $(this).val();
+})
+
+recognition1.onstart = function() { 
+  instructions1.text('Voice recognition is ON.');
+}
+
+recognition1.onspeechend = function() {
+  instructions1.text('No activity.');
+}
+
+recognition1.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    instructions1.text('Try again.');  
+  }
+}
+
+$('#start-btn1').on('click', function(e) {
+  if (Content1.length) {
+    Content1 += ' ';
+  }
+  recognition1.start();
+});
+
+Textbox1.on('input', function() {
+  Content1 = $(this).val();
+})
+
+
+recognition2.onstart = function() { 
+  instructions2.text('Voice recognition is ON.');
+}
+
+recognition2.onspeechend = function() {
+  instructions2.text('No activity.');
+}
+
+recognition2.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    instructions2.text('Try again.');  
+  }
+}
+
+$('#start-btn2').on('click', function(e) {
+  if (Content2.length) {
+    Content2 += ' ';
+  }
+  recognition2.start();
+});
+
+Textbox2.on('input', function() {
+  Content2 = $(this).val();
+})
+
+
+
+
+recognition3.onstart = function() { 
+  instructions3.text('Voice recognition is ON.');
+}
+
+recognition3.onspeechend = function() {
+  instructions3.text('No activity.');
+}
+
+recognition3.onerror = function(event) {
+  if(event.error == 'no-speech') {
+    instructions3.text('Try again.');  
+  }
+}
+
+$('#start-btn3').on('click', function(e) {
+  if (Content3.length) {
+    Content3 += ' ';
+  }
+  recognition3.start();
+});
+
+Textbox3.on('input', function() {
+  Content3 = $(this).val();
+})
+
+
+</script>
+  <section id="footer" style="background-color: #77b122">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <br>
+          <br>
+          <p style="font-size: 20px"> K J Somaiya College of Engineering</p>
+              <div class="contact-info">
+                <p><i class="fa fa-map-pin" aria-hidden="true"></i><span> Vidyanagar, Vidya Vihar East, Ghatkopar East, Mumbai, Maharashtra 400077</span></p>
+                
+              </div>
+        </div>
+        <div class="col-lg-4">
+          <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7777383728508!2d72.8973566143893!3d19.073507387089315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c627a20bcaa9%3A0xb2fd3bcfeac0052a!2sK.%20J.%20Somaiya%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1573663794262!5m2!1sen!2sin" allowfullscreen width="100%"></iframe>
+          <br>
+
+        </div>
+
+        <div class="col-lg-4">
+          <br>
+          <br>
+              <div class="contact-info">
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><span>  jeet.gujarathi@somaiya.edu</span></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><span> +91 8275589499</span></p>              
+              </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>
